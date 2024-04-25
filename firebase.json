@@ -1,0 +1,17 @@
+{
+  "hosting": {
+    "site": "music-player-b09dc",
+    "public": "dist/music-player",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
