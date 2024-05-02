@@ -53,7 +53,32 @@ export class AppComponent {
     });
   }
 
-  musicList: Music[] = [];
+  musicList: Music[] = [
+    {
+      album: "Album 1",
+      title: "Ave Maria",
+      artist: "Unknown",
+      url: "/assets/Ave Maria, D. 839.mp3"
+    },
+    {
+      album: "Album 1",
+      title: "Concerto No. 1",
+      artist: "Mozart",
+      url: "/assets/Concerto No.1.mp3"
+    },
+    {
+      album: "Album 1",
+      title: "Groovy Funk",
+      artist: "moodmode",
+      url: "/assets/groovy-ambient-funk-201745.mp3"
+    },
+    {
+      album: "Album 1",
+      title: "Sunlit Rhythms",
+      artist: "Top-Flow",
+      url: "/assets/sunlit-rhythms-205542.mp3"
+    },
+  ];
   
   displayedColumns: string[] = ['title', 'artist', 'album'];
   trackPointer: number = 0;
